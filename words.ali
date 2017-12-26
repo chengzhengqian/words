@@ -1,0 +1,157 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U words%b		words.adb		3abf1950 NE OO SU IU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W config%s		config.ads		config.ali
+W developer_parameters%s  developer_parameters.adb  developer_parameters.ali
+W interfaces%s		interfac.ads		interfac.ali
+W parse%b		parse.adb		parse.ali
+W strings_package%s	strings_package.adb	strings_package.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W word_package%s	word_package.adb	word_package.ali
+W word_parameters%s	word_parameters.adb	word_parameters.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-comlin.ads		20140225151544 ea62afbc
+D a-direio.ads		20090410151215 5842da07
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tienio.ads		20090409150019 fc618ae6
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D addons_package.ads	20050209232208 d06782cc
+D config.ads		20061018054700 56c01166
+D developer_parameters.ads  20041219221846 000e0cbf
+D dictionary_form.adb	20070109054556 4a437073
+D dictionary_package.ads  20061220043920 5b9a0298
+D directio.ads		20080801103345 fc913ad7
+D english_support_package.ads  20051220030540 1268ede1
+D inflections_package.ads  20060918222806 0024e633
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D latin_file_names.ads	20000611122414 02a42c5d
+D list_package.ads	20040217000842 bf484e24
+D parse.adb		20070101020018 061931f8
+D preface.ads		19990425030110 ca153902
+D put_stat.adb		19990224190138 5df162a4
+D search_english.adb	20060623154918 2585f6d1
+D strings_package.ads	20030308020540 fa0cf5bf
+D system.ads		20160213141829 90249111
+D s-carun8.ads		20140225151544 a903718d
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-conca3.ads		20140225151544 0b705ca5
+D s-conca4.ads		20140225151544 7e642b20
+D s-conca5.ads		20140225151544 875e432e
+D s-conca7.ads		20140225151544 fcc75b1f
+D s-crtl.ads		20140225151544 840e6817
+D s-direio.ads		20090409150019 068812e8
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imenne.ads		20140225151139 614c06c0
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D text_io.ads		20070406091342 45d626c9
+D tricks_package.ads	20001104165434 7e5aeb25
+D word_package.ads	20050110015338 dabe3102
+D word_parameters.ads	20050110035638 2d8f807a
+D word_support_package.ads  20000617212100 d7b95134
+D words.adb		20050113040652 b55a2bde
+X 1 ada.ads
+16K9*Ada 19e8 62|1r9 2r9 2r26 19r10 22r21 41r10 44r51 49r24 62r13 65r51 66r51
+. 86r26 87r27 100r13 103r44 104r44 105r44 132r39 133r60
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 62|1w13 19r14 41r14 44r55 62r17 65r55 66r55 100r17
+. 103r48 104r48 105r48 132r43 133r64
+41V13*Argument_Count{natural} 62|19s27 41s27 62s30 100s30 132s56
+48V13*Argument{string} 62|44s68 65s68 66s68 103s61 104s61 105s61 133s77
+X 9 a-textio.ads
+49K13*Text_IO 471e16 62|2w13 2r30 22r25 49r28 86r30 87r31
+52P9*File_Type
+53n23*In_File{53E9} 62|46r25 75r28
+53n32*Out_File{53E9} 62|76r31
+86U14*Create 62|76s16
+92U14*Open 62|46s13 75s16
+98U14*Close 62|88s16
+113U14*Set_Input 62|48s13 79s16 86s16
+114U14*Set_Output 62|22s10 49s13 80s16 87s16
+117V13*Standard_Input{52P9} 62|86s38
+118V13*Standard_Output{52P9} 62|22s33 49s36 87s39
+294X4*Name_Error 62|52r21 91r21
+X 14 config.ads
+1K9*CONFIG 20e11 62|4w9 4r21
+3i3*OUTPUT_SCREEN_SIZE{integer} 62|83m16
+5n31*DEVELOPER_VERSION{5E8} 62|15r24
+7e3*CONFIGURATION{5E8} 62|15m7
+9n24*INTERACTIVE{9E8} 62|20r20
+9n37*COMMAND_LINE_INPUT{9E8} 62|53r29 72r28 92r29 111r28 114r26 123r20 127r19
+9n57*COMMAND_LINE_FILES{9E8} 62|47r23 77r26
+11e3*METHOD{9E8} 62|20m10 47m13 53m19 72m18 77m16 92m19 111m18 114m16 123m10
+. 127r10
+17b3*SUPPRESS_PREFACE{boolean} 62|21m10 33m10 82m16 131m12
+X 15 developer_parameters.ads
+2K9*DEVELOPER_PARAMETERS 89e25 62|6w9 6r35
+86U13*INITIALIZE_DEVELOPER_PARAMETERS 62|24s10 35s10
+X 25 parse.adb
+20U11*PARSE 62|8w9 26s10 50s13 84s16 136s13
+X 29 strings_package.ads
+2K12*STRINGS_PACKAGE 31e23 62|3w9 3r30
+18V16*TRIM{string} 62|44s46 65s46 66s46 103s39 104s39 105s39 133s35 136s19
+22V16*HEAD{string} 62|133s30
+X 59 word_package.ads
+6K9*WORD_PACKAGE 78e17 62|7w9 7r27
+74U13*CHANGE_LANGUAGE 62|70s18 109s18
+76U13*INITIALIZE_WORD_PACKAGE 62|25s10 36s10
+X 60 word_parameters.ads
+2K9*WORD_PARAMETERS 63e20 62|5w9 5r30
+7e3*CHANGE_LANGUAGE_CHARACTER{character} 62|68r31 107r25
+17p3*OUTPUT{9|52P9} 62|76m23 76r23 80r27 88m22 88r22
+18p3*INPUT{9|52P9} 62|46m18 46r18 48r23 75m21 75r21 79r26
+61U13*INITIALIZE_WORD_PARAMETERS 62|23s10 34s10
+X 62 words.adb
+9U14*WORDS 9b14 141l8 141t13
+10a7 INPUT_LINE{string} 133m16 133r40 136r24
+11i7 ARGUMENTS_START{integer} 71m18 110m18 132r22
+42q10 ONE_ARGUMENT 54l14 54e26
+44a13 INPUT_NAME{string} 46r34
+63q10 TWO_ARGUMENTS 94l14 94e27
+65a13 INPUT_NAME{string} 68r15 69r18 70r34 75r37
+66a13 OUTPUT_NAME{string} 76r41
+101q10 THREE_ARGUMENTS 117l14 117e29
+103a13 ARG1{string} 107r15 108r18 109r34
+104a13 ARG2{string}
+105a13 ARG3{string}
+128q10 MORE_ARGUMENTS 137l14 137e28
+132i17 I{integer} 133r86
+

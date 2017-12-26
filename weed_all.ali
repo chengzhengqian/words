@@ -1,0 +1,63 @@
+V "GNAT Lib v4.9"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV SPARK_05
+
+U weed_all%b		weed_all.adb		55cc8481 NE OO SU IU
+W inflections_package%s	inflections_package.adb	inflections_package.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-direio.ads		20090410151215 5842da07
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tienio.ads		20090409150019 fc618ae6
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D directio.ads		20080801103345 fc913ad7
+D inflections_package.ads  20060918222806 0024e633
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-crtl.ads		20140225151544 840e6817
+D s-direio.ads		20090409150019 068812e8
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D text_io.ads		20070406091342 45d626c9
+D weed_all.adb		20060623055158 103e447b
+X 13 inflections_package.ads
+3K9*INFLECTIONS_PACKAGE 726e24 35|2w9 2r34
+32E8*PART_OF_SPEECH_TYPE 49e34 35|4r33
+718V13*"<="{boolean} 35|12r19
+X 34 text_io.ads
+24K9*Text_IO=24:29 35|1w9 1r22
+X 35 weed_all.adb
+3U14*WEED_ALL 3b14 3=23 4>23 114l8 114t16
+3s23 W{string} 12r10 20r10 21r10 22r10 23r10 24r10 25r10 26r10 27r10 28r10
+. 29r10 30r10 31r10 32r10 33r10 34r10 35r10 36r10 37r10 38r10 39r10 40r10
+. 41r10 53r10 54r10 55r10 56r10 59r10 68r14 69r14 70r14 71r14 72r14 73r14
+. 83r14 85r14 86r14 87r14 88r14 94r13 94r15 99r13 99r15 107r22 108m16
+4e23 POFS{13|32E8}
+9b7 KILL{boolean} 14m13 45m13 63m13 75m13 90m13 95m13 100m13 106r13
+107i17 I{integer} 108r18
+

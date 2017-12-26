@@ -1,0 +1,207 @@
+V "GNAT Lib v4.9"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U english_support_package%b  english_support_package.adb  1188b6ca OO PK IU
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+
+U english_support_package%s  english_support_package.ads  df809d82 EE OO PK IU
+Z ada%s			ada.ads			ada.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W dictionary_package%s	dictionary_package.adb	dictionary_package.ali
+W direct_io%s
+W inflections_package%s	inflections_package.adb	inflections_package.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W latin_file_names%s	latin_file_names.adb	latin_file_names.ali
+W strings_package%s	strings_package.adb	strings_package.ali
+Z system%s		system.ads		system.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.direct_io%s	s-direio.adb		s-direio.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W text_io%s		text_io.ads		text_io.ali
+W word_support_package%s  word_support_package.adb  word_support_package.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-direio.ads		20090410151215 5842da07
+D a-direio.adb		20121001094122 ddb08ceb
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tienio.ads		20090409150019 fc618ae6
+D a-tiinau.ads		20090409150019 8114c8e4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-tiinio.adb		20091130162119 df9cd7af
+D a-unccon.ads		20070406091342 f9eb8f06
+D dictionary_package.ads  20061220043920 5b9a0298
+D directio.ads		20080801103345 fc913ad7
+D english_support_package.ads  20051220030540 1268ede1
+D english_support_package.adb  20060112021306 03e05b2b
+D inflections_package.ads  20060918222806 0024e633
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D latin_file_names.ads	20000611122414 02a42c5d
+D strings_package.ads	20030308020540 fa0cf5bf
+D system.ads		20160213141829 90249111
+D s-crtl.ads		20140225151544 840e6817
+D s-direio.ads		20090409150019 068812e8
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-fileio.ads		20120709130952 45ce2f0f
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D text_io.ads		20070406091342 45d626c9
+D word_support_package.ads  20000617212100 d7b95134
+X 2 a-direio.ads
+53P9*File_Type<26|81P9> 17|57r30[40]
+X 9 a-textio.ads
+52P9*File_Type 17|44r38 46r38 18|14r32 52r32
+73I12*Field{integer}
+205U14*Get 18|17s5 19s5 21s5 23s5 25s5 27s5 29s5
+206U14*Get 18|36s5 38s5 40s5 42s5 44s5 46s5 48s5
+207U14*Put 18|55s5 57s5 59s5 61s5 63s5 65s5 67s5
+208U14*Put 18|74s5 76s5 78s5 80s5 82s5 84s5 86s5
+239U14*Get 18|16s5 18s5
+240U14*Get 18|35s5 37s5
+241U14*Put 18|54s5 56s5
+242U14*Put 18|73s5 75s5
+X 10 a-tienio.ads
+48i4*Default_Width{9|73I12} 18|126r37[19|51] 129r32[19|647]
+51U14*Get 18|22s5[19|51] 24s5[19|647]
+52U14*Get 18|41s5[19|51] 43s5[19|647]
+54U14*Put 18|60s5[19|51] 62s5[19|647]
+60U14*Put 18|79s5[19|51] 81s5[19|647]
+65U14*Get 18|99s5[19|51] 101s5[19|647]
+70U14*Put 18|127s5[19|51] 130s5[19|647]
+X 12 a-tiinio.ads
+45k21*Integer_IO 84e27 18|6r37
+50U14*Get 18|20s5[6] 26s5[6] 28s5[6] 30s5[6]
+55U14*Get 18|39s5[6] 45s5[6] 47s5[6] 49s5[6]
+59U14*Put 18|58s5[6] 64s5[6] 66s5[6] 68s5[6]
+65U14*Put 18|77s5[6] 83s5[6] 85s5[6] 87s5[6]
+70U14*Get 18|97s5[6] 103s5[6] 105s5[6] 107s5[6]
+75U14*Put 18|124s5[6] 133s5[6] 136s5[6] 139s5[6]
+X 15 dictionary_package.ads
+6K12*DICTIONARY_PACKAGE 474e26 17|6w9 6r33
+14E12*DICTIONARY_KIND 21e64 17|53r41
+X 16 directio.ads
+24k17*Direct_IO 17|2w9 40r37
+X 17 english_support_package.ads
+8K12*ENGLISH_SUPPORT_PACKAGE 61l5 61e28 18|1b15 150l5 150t28
+10N7*EWORD_SIZE 15r34 18|93r21 94r14 115r14
+11N7*AUX_WORD_SIZE 17r36 18|95r23 96r14 119r14
+12N7*LINE_NUMBER_WIDTH 18|123r14
+13N7*PRIORITY_WIDTH 18|132r14 135r14 138r14
+15A15*EWORD{string}<integer> 16r20 25r18
+16a7*NULL_EWORD{15A15} 25r27
+17A15*AUXWORD{string}<integer> 18r22 26r18
+18a7*NULL_AUXWORD{17A15} 26r29
+19I15*PRIORITY_TYPE{integer}
+21i7*NUMBER_OF_EWORDS{integer}
+23R12*EWDS_RECORD 33e19 35r26 38r55 40r47 44r57 45r31 46r56 47r30 48r46 50r46
+. 18|14r51 33r25 52r50 71r24 90r40 111r40
+25a11*W{15A15} 18|16m14 35m11 54r14 73r11 93m7 116r21
+26a11*AUX{17A15} 18|18m14 37m11 56r14 75r11 95m7 120r20
+27i11*N{integer} 18|20m14 39m11 58r14 77r11 97m27 124r22
+28e11*POFS{19|32E8} 18|22m14 41m11 60r14 79r11 99m27 127r22
+29e11*FREQ{19|621E8} 18|24m14 43m11 62r14 81r11 101m27 130r22
+30i11*SEMI{integer} 18|26m14 45m11 64r14 83r11 103m27 133r22
+31i11*KIND{integer} 18|28m14 47m11 66r14 85r11 105m27 136r22
+32i11*RANK{integer} 18|30m14 49m11 68r14 87r11 107m27 139r22
+35r7*NULL_EWDS_RECORD{23R12}
+38A12*EWDS_ARRAY(23R12)<integer>
+40K15*EWDS_DIRECT_IO[2|43] 57r15
+42K15*EWDS_RECORD_IO 51l11 51e25 18|5b15 147l5 147t19
+43i9*DEFAULT_WIDTH{natural}
+44U19*GET 44>23 44<49 18|14b13 31l5 31t8
+44p23 F{9|52P9} 18|14b17 16r9 17r9 18r9 19r9 20r9 21r9 22r9 23r9 24r9 25r9
+. 26r9 27r9 28r9 29r9 30r9
+44r49 P{23R12} 18|14b43 16m12 16r12 18m12 18r12 20m12 20r12 22m12 22r12 24m12
+. 24r12 26m12 26r12 28m12 28r12 30m12 30r12
+45U19*GET 45<23 18|33b13 50l5 50t8
+45r23 P{23R12} 18|33b17 35m9 35r9 37m9 37r9 39m9 39r9 41m9 41r9 43m9 43r9
+. 45m9 45r9 47m9 47r9 49m9 49r9
+46U19*PUT 46>23 46>49 18|52b13 69l6 69t9
+46p23 F{9|52P9} 18|52b17 54r9 55r9 56r9 57r9 58r9 59r9 60r9 61r9 62r9 63r9
+. 64r9 65r9 66r9 67r9 68r9
+46r49 P{23R12} 18|52b43 54r12 56r12 58r12 60r12 62r12 64r12 66r12 68r12
+47U19*PUT 47>23 18|71b13 88l5 88t8
+47r23 P{23R12} 18|71b17 73r9 75r9 77r9 79r9 81r9 83r9 85r9 87r9
+48U19*GET 48>23 48<38 49<35 18|90b13 108l7 108t10
+48s23 S{string} 18|90b17 91r20 93r12 95r14 97r9 97r16 99r9 99r16 101r9 101r16
+. 103r9 103r16 105r9 105r16 107r9 107r16
+48r38 P{23R12} 18|90b32 93m5 95m5 97m25 97r25 99m25 99r25 101m25 101r25 103m25
+. 103r25 105m25 105r25 107m25 107r25
+49i35 LAST{integer} 18|90b53 107m33
+50U19*PUT 50<23 50>39 18|111b13 144l7 144t10
+50s23 S{string} 18|111b17 112r20 116m5 118m5 120m5 122m5 124m9 124r9 125m5
+. 127m9 127r9 128m5 130m9 130r9 131m5 133m9 133r9 134m5 136m9 136r9 137m5
+. 139m9 139r9 143m5 143r12
+50r39 P{23R12} 18|111b33 116r19 120r18 124r20 127r20 130r20 133r20 136r20
+. 139r20
+53a3*ENGLISH_DICTIONARY_AVAILABLE(boolean)
+57p3*EWDS_FILE{2|53P9[40]}
+X 18 english_support_package.adb
+6K11 INTEGER_IO[12|45] 10r7
+11e3 SPACER{character} 17m12 19m12 21m12 23m12 25m12 27m12 29m12 36m9 38m9
+. 40m9 42m9 44m9 46m9 48m9
+12N3 NWIDTH 64r20 66r20 68r20 83r17 85r17 87r17 133r28 136r28 139r28
+91i5 L{integer} 93r14 93r19 94m5 94r10 95r16 95r21 96m5 96r10 97r11 97m30
+. 98m5 98r10 99r11 99m33 100m5 100r10 101r11 101m33 102m5 102r10 103r11 103m33
+. 104m5 104r10 105r11 105m33 106m5 106r10 107r11
+112i5 L{integer} 115r10 116r7 117m5 118r7 119r10 120r7 121m5 122r7 123r10
+. 124r11 125r7 126r10 127r11 128r7 129r10 130r11 131r7 132r10 133r11 134r7
+. 135r10 136r11 137r7 138r10 139r11
+113i5 M{integer} 115m5 116r12 117r10 119m5 120r12 121r10 123m5 124r16 126m5
+. 127r16 129m5 130r16 132m5 133r16 135m5 136r16 138m5 139r16 143r7
+X 19 inflections_package.ads
+3K9*INFLECTIONS_PACKAGE 17|5w9 5r34 19|726e24
+32E8*PART_OF_SPEECH_TYPE 17|28r18 19|49e34
+33n11*X{32E8} 17|28r41 36r46
+51K11*PART_OF_SPEECH_TYPE_IO[10|46] 18|7r7 126r14
+621E8*FREQUENCY_TYPE 17|29r18 19|632e29
+622n5*X{621E8} 17|29r36 36r49
+647K11*FREQUENCY_TYPE_IO[10|46] 18|8r7 129r14
+X 22 latin_file_names.ads
+1K9*LATIN_FILE_NAMES 17|4w9 4r31 22|57e21
+X 23 strings_package.ads
+2K12*STRINGS_PACKAGE 17|3w9 3r30 23|31e23
+X 26 s-direio.ads
+81P9*File_Type(53R9)
+X 43 text_io.ads
+24K9*Text_IO=24:29 17|1w9 44r30 46r30 18|3r8 6r29 9r7 14r24 52r24
+X 44 word_support_package.ads
+5K9*WORD_SUPPORT_PACKAGE 17|7w9 7r35 44|72e25
+
